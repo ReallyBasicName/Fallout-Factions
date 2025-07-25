@@ -1,0 +1,251 @@
+
+game.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/Army of Attis
+  rotate: false
+  xy: 4, 291
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Army of Gammorin
+  rotate: false
+  xy: 1820, 391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Boomers
+  rotate: false
+  xy: 1252, 112
+  size: 171, 171
+  orig: 171, 171
+  offset: 0, 0
+  index: -1
+NationIcons/Brotherhood of Steel
+  rotate: false
+  xy: 4, 83
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Caesar's Legion
+  rotate: false
+  xy: 212, 291
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Commonwealth Minutemen
+  rotate: false
+  xy: 212, 83
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Free States
+  rotate: false
+  xy: 420, 291
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Great Khans
+  rotate: false
+  xy: 1596, 383
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+NationIcons/Gunners
+  rotate: false
+  xy: 1647, 147
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Midwest Brotherhood
+  rotate: false
+  xy: 420, 83
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/New California
+  rotate: false
+  xy: 628, 291
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/New Vegas
+  rotate: false
+  xy: 1647, 39
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Shi
+  rotate: false
+  xy: 1892, 283
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Texan Brotherhood
+  rotate: false
+  xy: 628, 83
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/The Enclave
+  rotate: false
+  xy: 836, 291
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/The Fiends
+  rotate: false
+  xy: 836, 83
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/The Institute
+  rotate: false
+  xy: 1044, 291
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/The Railroad
+  rotate: false
+  xy: 1044, 83
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/The Unity
+  rotate: false
+  xy: 1755, 167
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Vault-Tec
+  rotate: false
+  xy: 1863, 175
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Zion
+  rotate: false
+  xy: 1252, 291
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationPortraits/The Unity
+  rotate: false
+  xy: 1755, 59
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Bright Brotherhood
+  rotate: false
+  xy: 1928, 391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Children of the Atom
+  rotate: false
+  xy: 1460, 255
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Children of the Cathedral
+  rotate: false
+  xy: 1431, 147
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Church of the Lost
+  rotate: false
+  xy: 1431, 39
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Codex
+  rotate: false
+  xy: 1539, 147
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Cult of Mars
+  rotate: false
+  xy: 1539, 39
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Followers of the Apocalypse
+  rotate: false
+  xy: 1568, 255
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Gods of the Vault
+  rotate: false
+  xy: 1252, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Mormonism
+  rotate: false
+  xy: 1460, 363
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Plutonius Worship
+  rotate: false
+  xy: 1676, 275
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Renewal
+  rotate: false
+  xy: 1784, 283
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Advanced Power Armor
+  rotate: false
+  xy: 1712, 391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Vertibird
+  rotate: false
+  xy: 1863, 67
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

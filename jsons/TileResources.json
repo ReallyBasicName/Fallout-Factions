@@ -1,0 +1,22 @@
+[
+	/*
+	{
+		"name": "Chems",
+		"resourceType": "Luxury",
+		"happiness": 1
+		"uniques": [
+			],
+	},
+	{
+		"name": "Subject",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Doesn't generate naturally",
+			"Not shown on world screen <for [non-[The Unity]] Civilizations>"
+			],
+	}
+	*/
+]

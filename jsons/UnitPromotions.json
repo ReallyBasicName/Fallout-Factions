@@ -1,0 +1,60 @@
+[
+	/*
+	//Brotherhood of Steel
+	
+	{
+		"name": "Without Borders",
+		"uniques": [
+			"May enter foreign tiles without open borders"
+		]
+	}
+	
+	//Caesar's Legion
+	
+	{
+		"name": "Terrifying Presence"
+		"uniques": [
+			"[+20]% Strength <vs [Wounded] units>"
+		]
+	},
+	
+	//Commonwealth Minutemen
+	
+	{
+		"name": "Minute's Notice",
+		"uniques": [
+			"Can move immediately once bought"
+			]
+	},
+	
+	//Great Khans
+	
+	{
+		"name": "New Khan"
+		"uniques": [
+		    "[-100]% maintenance costs",
+			"Gain [5] [Gold] <upon ending a turn in a [Friendly Land] tile>",
+
+		]
+	},
+	
+	//New Vegas
+	
+	{
+		"name": "Dead Man's Hand",
+		"uniques": [
+			"Earn [25]% of killed [Military] unit's [Cost] as [Gold]",
+			"[+20]% Strength decreasing with distance from the capital"
+		]
+	},
+	
+	//The Unity
+	
+	{
+		"name": "Unity",
+		"uniques": [
+			"Instantly provides [1] [Subject] <upon defeating a [Military] unit>"
+		]
+	},
+	*/
+]
