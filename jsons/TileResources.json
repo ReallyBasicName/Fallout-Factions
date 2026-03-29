@@ -1,4 +1,15 @@
 [
+	{
+		"name": "FEV",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Doesn't generate naturally",
+			"Not shown on world screen <for [non-[The Unity RF]] Civilizations>"
+			],
+	}
 	/*
 	{
 		"name": "Chems",

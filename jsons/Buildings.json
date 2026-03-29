@@ -1,27 +1,12 @@
 [
-	/*
-	{
-		"name": "Bunker",
-		"replaces": "Bomb Shelter",
-		"uniqueTo": "Brotherhood of Steel",
-		"cost": 275,
-		"cityStrength": 8,
-		"cityHealth": 20,
-		"maintenance": 1,
-		"requiredTech": "Scientific Theory",
-		"uniques": [
-			"Population loss from nuclear attacks [-75]% [in this city]",
-			"Damage to garrison from nuclear attacks [-75]% [in this city]",
-			"Only available <when nuclear weapons are enabled> <hidden from users>"
-		]
-	},
-
+	//Horribly unorganized right now...
+	
 	//Commonwealth Minutemen
 	
 	{
-		"name": "Recruitment Radio Beacon",
+		"name": "Recruitment Radio Beacon RF",
 		"replaces": "Broadcast Tower",
-		"uniqueTo": "Commonwealth Minutemen",
+		"uniqueTo": "Commonwealth Minutemen RF",
 		"culture": 3,
 		"happiness": 1,
 		"percentStatBonus": {"culture": 33},
@@ -33,10 +18,11 @@
 			"Destroyed when the city is captured"
 		]
 	},
+	/*
 	{
-		"name": "Bioscience Division",
+		"name": "Bioscience Division RF",
 		"replaces": "Hospital",
-		"uniqueTo": "The Institute",
+		"uniqueTo": "The Institute RF",
 		"food": 5,
 		"requiredBuilding": "Aqueduct",
 		"maintenance": 2,
@@ -44,23 +30,29 @@
 		"requiredTech": "Biology"
 	},
 	{
-		"name": "FEV Vats",
+		"name": "FEV Vats RF",
 		"replaces": "Barracks",
-		"uniqueTo": "The Unity",
+		"uniqueTo": "The Unity RF",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
+			"Provides [1] [FEV]",
 			"New [Military] units start with [15] XP [in this city]", 
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Bronze Working"
 	},
+	*/
 	{
-		"name": "Vault",
+		"name": "Vault RF",
 		"replaces": "Bomb Shelter",
-		"uniqueTo": "Vault-Tec",
-		"cost": 300,
-		"maintenance": 1,
+		"uniqueTo": "Vault-Tec RF",
+		"cost": 350,
+		"food": 4,
+		"science": 4,
+		"production": 4,
+		"happiness": -1,
+		"maintenance": 3,
 		"requiredTech": "Telecommunications",
 		"uniques": [
 			"Population loss from nuclear attacks [-75]% [in this city]",
@@ -68,7 +60,198 @@
 			"Only available <when nuclear weapons are enabled> <hidden from users>"
 		]
 	},
+	{
+		"name": "Vault-Tec University RF",
+		"replaces": "Oxford University",
+		"uniqueTo": "Vault-Tec RF",
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <if [University] is constructed in all [non-[Puppeted]] cities>",
+			"Free Technology",
+			"Free Great Person",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Education"
+	},
+	/*
+	{
+		"name": "Arena RF",
+		"replaces": "Colosseum",
+		"uniqueTo": "Rust Kingdom RF",
+		"maintenance": 1,
+		"culture": 1,
+		"happiness": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+		"uniques": [
+			"New [Military] units start with [10] XP [in this city]", 
+		],
+	},
+	{
+		"name": "Gladiator Pit RF",
+		"replaces": "Colosseum",
+		"uniqueTo": "Army of Attis RF",
+		"maintenance": 1,
+		"culture": 1,
+		"happiness": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+		"uniques": [
+			"New [Military] units start with [10] XP [in this city]", 
+		],
+	},
 	*/
+	{
+		"name": "King's School of Impersonation RF",
+		"replaces": "National Epic",
+		"uniqueTo": "Freeside RF",
+		"cost": 125,
+		"culture": 2,
+		"happiness": 2,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+2 Culture] from all [Library] buildings <in this city>",
+			"[+2 Culture] from all [University] buildings <in this city>",
+			"[+2 Culture] from all [Public School] buildings <in this city>",
+			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
+			"[+25]% Great Person generation [in this city]",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Fortified Prison RF",
+		"replaces": "Arsenal",
+		"uniqueTo": "Powder Gangers RF",
+		"cost": 300,
+		"cityStrength": 12,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Castle",
+		"requiredTech": "Metallurgy",
+		"uniques": [
+			"[+1 Production] from [Fort] tiles [in this city]"
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Neon Sign Barriers RF",
+		"replaces": "Walls",
+		"uniqueTo": "The Fiends RF",
+		"cityStrength": 7,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": [
+			"[-50]% production cost <in [Annexed] cities>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Casino RF",
+		"replaces": "Stock Exchange",
+		"uniqueTo": "New Vegas RF",
+		"gold": 5,
+		"percentStatBonus": {"gold": 40},
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Bank",
+		"requiredTech": "Electricity"
+		"uniques": [
+			"Comment [Allows unique casino wonders to be built]"
+		]
+		"civilopediaText": [
+			{
+			"text": "Lucky 38 Casino RF",
+			"link": "Building/Lucky 38 Casino RF",
+			}
+			{
+			"text": "Gomorrah Casino RF",
+			"link": "Building/Gomorrah Casino RF",
+			}
+			{
+			"text": "The Tops Casino RF",
+			"link": "Building/The Tops Casino RF",
+			}
+			{
+			"text": "Ultra-Luxe Casino RF",
+			"link": "Building/Ultra-Luxe Casino RF",
+			}
+		],
+	},
+	{
+		"name": "Lucky 38 Casino RF",
+		"uniqueTo": "New Vegas RF",
+		"isWonder": true,
+		"gold": 2,
+		"culture": 2,
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Casino RF"
+		"requiredTech": "Electricity"
+		"uniques": [
+			"[+10]% [Science] <in this city>"
+			"[+10]% [Production] <in this city>"
+		]
+	},
+	{
+		"name": "Gomorrah Casino RF",
+		"uniqueTo": "New Vegas RF",
+		"isWonder": true,
+		"gold": 2,
+		"culture": 2,
+		"happiness": 2,
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Casino RF"
+		"requiredTech": "Electricity"
+		"uniques": [
+			"[+20]% [Happiness] <in this city>"
+		]
+	},
+	{
+		"name": "The Tops Casino RF",
+		"uniqueTo": "New Vegas RF",
+		"isWonder": true,
+		"gold": 2,
+		"culture": 2,
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Casino RF"
+		"requiredTech": "Electricity"
+		"uniques": [
+			"[+25]% [Gold] <in this city>"
+		]
+	},
+	{
+		"name": "Ultra-Luxe Casino RF",
+		"uniqueTo": "New Vegas RF",
+		"isWonder": true,
+		"gold": 2,
+		"culture": 2,
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Casino RF"
+		"requiredTech": "Electricity"
+		"uniques": [
+			"[+20]% [Culture] <in this city>"
+		]
+	},
+	{
+		"name": "Crimson Caravan RF",
+		"replaces": "Market",
+		"uniqueTo": "New California RF",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+		"uniques": [
+			"[-25]% Culture cost of natural border growth [in this city] <hidden from users>",
+			"Comment [-25% [Culture] cost of natural border growth in this city]"
+		]
+	},
 	/*
 		"replaces": "",
 		"uniqueTo": "",

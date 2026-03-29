@@ -1,0 +1,799 @@
+[
+	/*
+	{
+		"name": "Template",
+		// Stats focused personalities
+		"culture": Culture,
+		"faith": Religion,
+		"food": Growth,
+		"gold": Gold,
+		"happiness": Happiness,
+		"production": Production,
+		"science": Science,
+		// Behavour focused personalities
+		"military": Military Training,
+		"aggressive": Offensive or (10 - defensive) which ever is higher,
+		"declareWar": War,
+		"commerce": Gold + Chattiness,
+		"diplomacy": Diplomatic Balance + Friendly,
+		"loyal": Loyalty + Defense,
+		"expansion": Expansion,
+		"denounceWillingness": Denouncing
+
+		"priorities": {
+			"Tradition": Culture + Wonder,
+			"Liberty": Expansion + TileImprovement,
+			"Honor": Boldness + War,
+			"Commerce": Gold + Chatiness,
+			"Patronage": CityStateCompetitiveness + CSFriendly,
+			"Piety": Faith + CS Friendly,
+			"Rationalism": Science + Spaceship,
+			"Freedom": Hapiness + Growth,
+			"Autocracy": Boldness + Military training,
+			"Order": Defensive + Production
+		},
+		"uniques": [
+		]
+	},
+	*/
+	//Caesar's Legion
+	{
+		"name": "Caesar",
+		// Stats focused personalities
+		"culture": 7,
+		"faith": 6,
+		"food": 6,
+		"gold": 7,
+		"happiness": 5,
+		"production": 9,
+		"science": 6,
+		// Behavour focused personalities
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 5,
+		"diplomacy": 3,
+		"loyal": 1,
+		"expansion": 10,
+		"denounceWillingness": 10,
+
+		"priorities": {
+			"Tradition": 5,
+			"Liberty": 4,
+			"Honor": 10,
+			"Commerce": 3,
+			"Patronage": 0,
+			"Piety": 0,
+			"Rationalism": 3,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 2
+		},
+		"uniques": [
+			//"Will not build [Giant Death Robot]"
+		]
+	},
+	//Enclave
+	{
+		"name": "Dick Richardson",
+		// Stats focused personalities
+		"culture": 4,
+		"faith": 4,
+		"food": 5,
+		"gold": 5,
+		"happiness": 5,
+		"production": 10,
+		"science": 10,
+		// Behavour focused personalities
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 1,
+		"diplomacy": 1,
+		"loyal": 0,
+		"expansion": 10,
+		"denounceWillingness": 10
+
+		"priorities": {
+			"Tradition": 3,
+			"Liberty": 10,
+			"Honor": 6,
+			"Commerce": 2,
+			"Patronage": 1,
+			"Piety": 3,
+			"Rationalism": 10,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"uniques": [
+		]
+	},
+	//Freeside
+	{
+		"name": "The King",
+		// Stats focused personalities
+		"culture": 10,
+		"faith": 7,
+		"food": 5,
+		"gold": 7,
+		"happiness": 9,
+		"production": 6,
+		"science": 7,
+		// Behavour focused personalities
+		"military": 5,
+		"aggressive": 2,
+		"declareWar": 0,
+		"commerce": 9,
+		"diplomacy": 10,
+		"loyal": 10,
+		"expansion": 2,
+		"denounceWillingness": 1,
+
+		"priorities": {
+			"Tradition": 10,
+			"Liberty": 4,
+			"Honor": 0,
+			"Commerce": 8,
+			"Patronage": 6,
+			"Piety": 2,
+			"Rationalism": 4,
+			"Freedom": 10,
+			"Autocracy": 1,
+			"Order": 1
+		},
+		"uniques": [
+		]
+	},
+	//New Vegas
+	{
+		"name": "Mr. House",
+		// Stats focused personalities
+		"culture": 8,
+		"faith": 4,
+		"food": 7,
+		"gold": 10,
+		"happiness": 9,
+		"production": 7,
+		"science": 10,
+		// Behavour focused personalities
+		"military": 10,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 10,
+		"diplomacy": 9,
+		"loyal": 8,
+		"expansion": 2,
+		"denounceWillingness": 5,
+
+		"priorities": {
+			"Tradition": 10,
+			"Liberty": 3,
+			"Honor": 1,
+			"Commerce": 10,
+			"Patronage": 5,
+			"Piety": 3,
+			"Rationalism": 10,
+			"Freedom": 4,
+			"Autocracy": 8,
+			"Order": 5
+		},
+		"uniques": [
+		]
+	},
+	//Commonwealth Minutemen
+	{
+		"name": "Preston Garvey",
+		// Stats focused personalities
+		"culture": 8,
+		"faith": 4,
+		"food": 7,
+		"gold": 7,
+		"happiness": 9,
+		"production": 7,
+		"science": 6,
+		// Behavour focused personalities
+		"military": 8,
+		"aggressive": 4,
+		"declareWar": 5,
+		"commerce": 9,
+		"diplomacy": 10,
+		"loyal": 10,
+		"expansion": 7,
+		"denounceWillingness": 6
+
+		"priorities": {
+			"Tradition": 7,
+			"Liberty": 10,
+			"Honor": 1,
+			"Commerce": 7,
+			"Patronage": 10,
+			"Piety": 2,
+			"Rationalism": 8,
+			"Freedom": 10,
+			"Autocracy": 1,
+			"Order": 0
+		},
+		"uniques": [
+		]
+	},
+	//Brotherhood of Steel
+	{
+		"name": "Roger Maxson",
+		// Stats focused personalities
+		"culture": 6,
+		"faith": 8,
+		"food": 5,
+		"gold": 5,
+		"happiness": 6,
+		"production": 9,
+		"science": 10,
+		// Behavour focused personalities
+		"military": 10,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 6,
+		"diplomacy": 7,
+		"loyal": 10,
+		"expansion": 8,
+		"denounceWillingness": 6
+
+		"priorities": {
+			"Tradition": 8,
+			"Liberty": 6,
+			"Honor": 7,
+			"Commerce": 5,
+			"Patronage": 3,
+			"Piety": 4,
+			"Rationalism": 10,
+			"Freedom": 8,
+			"Autocracy": 6,
+			"Order": 1
+		},
+		"uniques": [
+			//"Will not build [Atomic Bomber]",
+			//"Will not build [Nuclear Missile]",
+			//"Will not build [Giant Death Robot]"
+		]
+	},
+	//Unity
+	{
+		"name": "The Master",
+		// Stats focused personalities
+		"culture": 5,
+		"faith": 10,
+		"food": 5,
+		"gold": 6,
+		"happiness": 0,
+		"production": 10,
+		"science": 8,
+		// Behavour focused personalities
+		"military": 10,
+		"aggressive": 9,
+		"declareWar": 10,
+		"commerce": 4,
+		"diplomacy": 3,
+		"loyal": 5,
+		"expansion": 10,
+		"denounceWillingness": 8
+
+		"priorities": {
+			"Tradition": 1,
+			"Liberty": 1,
+			"Honor": 10,
+			"Commerce": 5,
+			"Patronage": 2,
+			"Piety": 8,
+			"Rationalism": 10,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"uniques": [
+		]
+	},
+	//Powder Gangers
+	{
+		"name": "Eddie",
+		// Stats focused personalities
+		"culture": 7,
+		"faith": 2,
+		"food": 5,
+		"gold": 4,
+		"happiness": 6,
+		"production": 8,
+		"science": 6,
+		// Behavour focused personalities
+		"military": 9,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 2,
+		"diplomacy": 3,
+		"loyal": 10,
+		"expansion": 7,
+		"denounceWillingness": 6
+
+		"priorities": {
+			"Tradition": 4,
+			"Liberty": 4,
+			"Honor": 9,
+			"Commerce": 5,
+			"Patronage": 3,
+			"Piety": 2,
+			"Rationalism": 7,
+			"Freedom": 1,
+			"Autocracy": 9,
+			"Order": 2
+		},
+		"uniques": [
+		]
+	},
+	//Fiends
+	{
+		"name": "Motor-Runner",
+		// Stats focused personalities
+		"culture": 7,
+		"faith": 3,
+		"food": 5,
+		"gold": 9,
+		"happiness": 10,
+		"production": 7,
+		"science": 6,
+		// Behavour focused personalities
+		"military": 9,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 10,
+		"diplomacy": 8,
+		"loyal": 9,
+		"expansion": 8,
+		"denounceWillingness": 10
+
+		"priorities": {
+			"Tradition": 1,
+			"Liberty": 1,
+			"Honor": 10,
+			"Commerce": 9,
+			"Patronage": 1,
+			"Piety": 1,
+			"Rationalism": 6,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 1
+		},
+		"uniques": [
+		]
+	},
+	//Responders
+	{
+		"name": "Rucker",
+		// Stats focused personalities
+		"culture": 8,
+		"faith": 3,
+		"food": 8,
+		"gold": 6,
+		"happiness": 7,
+		"production": 7,
+		"science": 10,
+		// Behavour focused personalities
+		"military": 6,
+		"aggressive": 2,
+		"declareWar": 1,
+		"commerce": 9,
+		"diplomacy": 10,
+		"loyal": 10,
+		"expansion": 5,
+		"denounceWillingness": 3
+
+		"priorities": {
+			"Tradition": 8,
+			"Liberty": 2,
+			"Honor": 2,
+			"Commerce": 5,
+			"Patronage": 5,
+			"Piety": 2,
+			"Rationalism": 10,
+			"Freedom": 10,
+			"Autocracy": 0,
+			"Order": 0
+		},
+		"uniques": [
+		]
+	},
+	//White Legs
+	{
+		"name": "Salt-Upon-Wounds",
+		// Stats focused personalities
+		"culture": 9,
+		"faith": 9,
+		"food": 6,
+		"gold": 5,
+		"happiness": 6,
+		"production": 7,
+		"science": 6,
+		// Behavour focused personalities
+		"military": 10,
+		"aggressive": 9,
+		"declareWar": 9,
+		"commerce": 2,
+		"diplomacy": 1,
+		"loyal": 8,
+		"expansion": 9,
+		"denounceWillingness": 5
+
+		"priorities": {
+			"Tradition": 2,
+			"Liberty": 2,
+			"Honor": 10,
+			"Commerce": 3,
+			"Patronage": 1,
+			"Piety": 9,
+			"Rationalism": 6,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 1
+		},
+		"uniques": [
+		]
+	},
+	//Vault-Tec
+	{
+		"name": "Vault Boy",
+		// Stats focused personalities
+		"culture": 4,
+		"faith": 1,
+		"food": 8,
+		"gold": 10,
+		"happiness": 5,
+		"production": 7,
+		"science": 10,
+		// Behavour focused personalities
+		"military": 5,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 5,
+		"diplomacy": 5,
+		"loyal": 0,
+		"expansion": 5,
+		"denounceWillingness": 9
+
+		"priorities": {
+			"Tradition": 8,
+			"Liberty": 2,
+			"Honor": 1,
+			"Commerce": 8,
+			"Patronage": 9,
+			"Piety": 3,
+			"Rationalism": 10,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 1
+		},
+		"uniques": [
+		]
+	},
+	//New California
+	{
+		"name": "Tandi",
+		// Stats focused personalities
+		"culture": 8,
+		"faith": 4,
+		"food": 8,
+		"gold": 9,
+		"happiness": 9,
+		"production": 8,
+		"science": 7,
+		// Behavour focused personalities
+		"military": 10,
+		"aggressive": 7,
+		"declareWar": 6,
+		"commerce": 10,
+		"diplomacy": 10,
+		"loyal": 10,
+		"expansion": 9,
+		"denounceWillingness": 6
+
+		"priorities": {
+			"Tradition": 8,
+			"Liberty": 8,
+			"Honor": 0,
+			"Commerce": 7,
+			"Patronage": 10,
+			"Piety": 2,
+			"Rationalism": 8,
+			"Freedom": 9,
+			"Autocracy": 1,
+			"Order": 0
+		},
+		"uniques": [
+		]
+	},
+	//Gunners
+	{
+		"name": "Cypress",
+		// Stats focused personalities
+		"culture": 5,
+		"faith": 1,
+		"food": 5,
+		"gold": 7,
+		"happiness": 6,
+		"production": 10,
+		"science": 6,
+		// Behavour focused personalities
+		"military": 10,
+		"aggressive": 9,
+		"declareWar": 8,
+		"commerce": 0,
+		"diplomacy": 0,
+		"loyal": 2,
+		"expansion": 8,
+		"denounceWillingness": 7
+
+		"priorities": {
+			"Tradition": 0,
+			"Liberty": 0,
+			"Honor": 10,
+			"Commerce": 3,
+			"Patronage": 0,
+			"Piety": 0,
+			"Rationalism": 7,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"uniques": [
+		]
+	},
+	//Army of Attis
+	{
+		"name": "Attis",
+		// Stats focused personalities
+		"culture": 3,
+		"faith": 2,
+		"food": 5,
+		"gold": 5,
+		"happiness": 5,
+		"production": 9,
+		"science": 7,
+		// Behavour focused personalities
+		"military": 10,
+		"aggressive": 9,
+		"declareWar": 10,
+		"commerce": 5,
+		"diplomacy": 5,
+		"loyal": 3,
+		"expansion": 9,
+		"denounceWillingness": 7
+
+		"priorities": {
+			"Tradition": 1,
+			"Liberty": 1,
+			"Honor": 10,
+			"Commerce": 1,
+			"Patronage": 1,
+			"Piety": 1,
+			"Rationalism": 10,
+			"Freedom": 1,
+			"Autocracy": 10,
+			"Order": 1
+		},
+		"uniques": [
+		]
+	}
+	//Free States,
+	{
+		"name": "Raleigh Clay",
+		// Stats focused personalities
+		"culture": 9,
+		"faith": 4,
+		"food": 7,
+		"gold": 8,
+		"happiness": 8,
+		"production": 7,
+		"science": 8,
+		// Behavour focused personalities
+		"military": 5,
+		"aggressive": 5,
+		"declareWar": 4,
+		"commerce": 10,
+		"diplomacy": 10,
+		"loyal": 7,
+		"expansion": 5,
+		"denounceWillingness": 8
+
+		"priorities": {
+			"Tradition": 0,
+			"Liberty": 10,
+			"Honor": 0,
+			"Commerce": 7,
+			"Patronage": 9,
+			"Piety": 3,
+			"Rationalism": 8,
+			"Freedom": 10,
+			"Autocracy": 0,
+			"Order": 0
+		},
+		"uniques": [
+		]
+	}
+	//Great Khans,
+	{
+		"name": "Papa Khan",
+		// Stats focused personalities
+		"culture": 8,
+		"faith": 3,
+		"food": 6,
+		"gold": 10,
+		"happiness": 9,
+		"production": 9,
+		"science": 9,
+		// Behavour focused personalities
+		"military": 8,
+		"aggressive": 7,
+		"declareWar": 7,
+		"commerce": 10,
+		"diplomacy": 7,
+		"loyal": 10,
+		"expansion": 8,
+		"denounceWillingness": 7
+
+		"priorities": {
+			"Tradition": 6,
+			"Liberty": 2,
+			"Honor": 10,
+			"Commerce": 10,
+			"Patronage": 2,
+			"Piety": 3,
+			"Rationalism": 9,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"uniques": [
+		]
+	}
+	//People's Liberation Army,
+	{
+		"name": "Jingwei",
+		// Stats focused personalities
+		"culture": 6,
+		"faith": 3,
+		"food": 5,
+		"gold": 5,
+		"happiness": 5,
+		"production": 10,
+		"science": 9,
+		// Behavour focused personalities
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 3,
+		"diplomacy": 4,
+		"loyal": 5,
+		"expansion": 10,
+		"denounceWillingness": 7
+
+		"priorities": {
+			"Tradition": 2,
+			"Liberty": 0,
+			"Honor": 8,
+			"Commerce": 4,
+			"Patronage": 1,
+			"Piety": 2,
+			"Rationalism": 9,
+			"Freedom": 0,
+			"Autocracy": 1,
+			"Order": 10
+		},
+		"uniques": [
+		]
+	}
+	//Rust Kingdom,
+	{
+		"name": "Rust King",
+		// Stats focused personalities
+		"culture": 5,
+		"faith": 2,
+		"food": 5,
+		"gold": 6,
+		"happiness": 7,
+		"production": 10,
+		"science": 6,
+		// Behavour focused personalities
+		"military": 10,
+		"aggressive": 8,
+		"declareWar": 7,
+		"commerce": 1,
+		"diplomacy": 5,
+		"loyal": 0,
+		"expansion": 10,
+		"denounceWillingness": 5
+
+		"priorities": {
+			"Tradition": 0,
+			"Liberty": 0,
+			"Honor": 10,
+			"Commerce": 1,
+			"Patronage": 0,
+			"Piety": 2,
+			"Rationalism": 5,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"uniques": [
+		]
+	}
+	//Zion,
+	{
+		"name": "Joshua Graham",
+		// Stats focused personalities
+		"culture": 7,
+		"faith": 10,
+		"food": 6,
+		"gold": 5,
+		"happiness": 8,
+		"production": 7,
+		"science": 7,
+		// Behavour focused personalities
+		"military": 7,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 9,
+		"diplomacy": 8,
+		"loyal": 10,
+		"expansion": 7,
+		"denounceWillingness": 10
+
+		"priorities": {
+			"Tradition": 10,
+			"Liberty": 1,
+			"Honor": 5,
+			"Commerce": 6,
+			"Patronage": 3,
+			"Piety": 10,
+			"Rationalism": 5,
+			"Freedom": 7,
+			"Autocracy": 0,
+			"Order": 0
+		},
+		"uniques": [
+		]
+	},
+	//The Pitt
+	{
+		"name": "Ashur",
+		// Stats focused personalities
+		"culture": 5,
+		"faith": 2,
+		"food": 5,
+		"gold": 9,
+		"happiness": 4,
+		"production": 10,
+		"science": 7,
+		// Behavour focused personalities
+		"military": 10,
+		"aggressive": 6,
+		"declareWar": 5,
+		"commerce": 10,
+		"diplomacy": 5,
+		"loyal": 8,
+		"expansion": 10,
+		"denounceWillingness": 6
+
+		"priorities": {
+			"Tradition": 0,
+			"Liberty": 1,
+			"Honor": 10,
+			"Commerce": 7,
+			"Patronage": 0,
+			"Piety": 0,
+			"Rationalism": 7,
+			"Freedom": 5,
+			"Autocracy": 9,
+			"Order": 0
+		},
+		"uniques": [
+		]
+	},
+]

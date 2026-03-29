@@ -1,2 +1,21 @@
 [
+	{
+		"name": "Steelyard RF",
+		"uniqueTo": "The Pitt RF",
+		"production": 1,
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Tundra",
+			"Snow"
+		],
+		"turnsToBuild": 7,
+		"techRequired": "Steel",
+		"uniques": [
+			"Improves [Iron] resource in this tile",
+			"[+1 Production] from [Iron] tiles",
+			"[+1 Production] <after discovering [Industrialization]>"
+		],
+	}
 ]

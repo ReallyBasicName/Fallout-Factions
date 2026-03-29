@@ -1,0 +1,42 @@
+[
+	/*
+	{
+		"name": "",
+		"unitNames": [
+			""
+		],
+		"uniques": [
+		]
+	}
+	*/
+	{
+		"name": "BoS Elder",
+		"unitNames": [
+			"Elder David James",
+			"Elder Kenneth Jones",
+			"Elder Lindquist",
+			"Elder Lyons",
+			"Elder Nolan McNamara",
+			"Elder McRae",
+			"Elder Patrocolus",
+			"Elder Raymond Lorn",
+			"Elder Theis",
+			"Elder Jacob",
+			"Elder Jonathan",
+			"Elder Mary",
+			"Elder Rachael"
+		],
+		"uniques": [
+		]
+	},
+	{
+		"name": "Legatus",
+		"unitNames": [
+			"Malpais Legatus",
+			"Legatus Lanius",
+			"Lacerta Legatus"
+		],
+		"uniques": [
+		]
+	}
+]

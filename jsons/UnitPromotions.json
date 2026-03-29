@@ -1,5 +1,5 @@
 [
-	/*
+	
 	//Brotherhood of Steel
 	
 	{
@@ -7,26 +7,19 @@
 		"uniques": [
 			"May enter foreign tiles without open borders"
 		]
-	}
+	},
 	
-	//Caesar's Legion
+	//Fiends
 	
 	{
-		"name": "Terrifying Presence"
+		"name": "Fuck Borders",
 		"uniques": [
-			"[+20]% Strength <vs [Wounded] units>"
+			"May enter foreign tiles without open borders",
+			"[-25]% Strength <in [{Major} {non-[Open Borders]}] tiles>",
+			"[-5] HP when healing <in [{Major} {non-[Open Borders]}] tiles>"
 		]
 	},
-	
-	//Commonwealth Minutemen
-	
-	{
-		"name": "Minute's Notice",
-		"uniques": [
-			"Can move immediately once bought"
-			]
-	},
-	
+	/*
 	//Great Khans
 	
 	{
@@ -38,23 +31,185 @@
 		]
 	},
 	
-	//New Vegas
-	
-	{
-		"name": "Dead Man's Hand",
-		"uniques": [
-			"Earn [25]% of killed [Military] unit's [Cost] as [Gold]",
-			"[+20]% Strength decreasing with distance from the capital"
-		]
-	},
-	
 	//The Unity
 	
 	{
-		"name": "Unity",
+		"name": "Subject",
 		"uniques": [
-			"Instantly provides [1] [Subject] <upon defeating a [Military] unit>"
+			"[+1] population [in this city] <by consuming this unit>  <for units without [Unity]>",
 		]
 	},
+	{
+		"name": "Unity",
+		"uniques": [
+		]
+	},
+	*/
+	//Vault-Tec
+	
+	{
+		"name": "SPECIAL RF",
+		"uniques": [
+			"Comment [You're SPECIAL! (Choose a Skill Point)]",
+			"Unavailable <for [non-[Vault-Tec RF]] Civilizations>"
+		],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"innerColor": [20, 255, 23],
+		"outerColor": [0, 0, 0],
+        "column": 101,
+        "row": 1,
+    },
+	{
+		"name": "Strength RF",
+		"prerequisites": ["SPECIAL RF"],
+		"uniques": [
+			"[+25]% Strength <when attacking>",
+			"This Promotion is free",
+			"Only available <for units without [Perception RF]>",
+			"Only available <for units without [Endurance RF]>",
+			"Only available <for units without [Charisma RF]>",
+			"Only available <for units without [Intelligence RF]>",
+			"Only available <for units without [Agility RF]>",
+			"Only available <for units without [Luck RF]>",
+			"Unavailable <for [non-[Vault-Tec RF]] Civilizations>"
+		],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"innerColor": [20, 255, 23],
+		"outerColor": [0, 0, 0],
+        "column": 98
+        "row": 2,
+    },
+	{
+		"name": "Perception RF",
+		"prerequisites": ["SPECIAL RF"],
+		"uniques": [
+			"[+1] Sight",
+			"This Promotion is free",
+			"Only available <for units without [Strength RF]>",
+			"Only available <for units without [Endurance RF]>",
+			"Only available <for units without [Charisma RF]>",
+			"Only available <for units without [Intelligence RF]>",
+			"Only available <for units without [Agility RF]>",
+			"Only available <for units without [Luck RF]>",
+			"Unavailable <for [non-[Vault-Tec RF]] Civilizations>"
+		],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"innerColor": [20, 255, 23],
+		"outerColor": [0, 0, 0],
+        "column": 99
+        "row": 2,
+    },
+	{
+		"name": "Endurance RF",
+		"prerequisites": ["SPECIAL RF"],
+		"uniques": [
+			"[+5] HP when healing",
+			"This Promotion is free",
+			"Only available <for units without [Strength RF]>",
+			"Only available <for units without [Perception RF]>",
+			"Only available <for units without [Charisma RF]>",
+			"Only available <for units without [Intelligence RF]>",
+			"Only available <for units without [Agility RF]>",
+			"Only available <for units without [Luck RF]>",
+			"Unavailable <for [non-[Vault-Tec RF]] Civilizations>"
+		],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"innerColor": [20, 255, 23],
+		"outerColor": [0, 0, 0],
+        "column": 100
+        "row": 2,
+    },
+	{
+		"name": "Charisma RF",
+		"prerequisites": ["SPECIAL RF"],
+		"uniques": [
+			"May capture killed [{Military} {Land}] units <with [15]% chance>",
+			"This Promotion is free",
+			"Only available <for units without [Strength RF]>",
+			"Only available <for units without [Perception RF]>",
+			"Only available <for units without [Endurance RF]>",
+			"Only available <for units without [Intelligence RF]>",
+			"Only available <for units without [Agility RF]>",
+			"Only available <for units without [Luck RF]>",
+			"Unavailable <for [non-[Vault-Tec RF]] Civilizations>"
+		],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"innerColor": [20, 255, 23],
+		"outerColor": [0, 0, 0],
+        "column": 101
+        "row": 2,
+    },
+	{
+		"name": "Intelligence RF",
+		"prerequisites": ["SPECIAL RF"],
+		"uniques": [
+			"[+25]% XP gained from combat",
+			"This Promotion is free",
+			"Only available <for units without [Strength RF]>",
+			"Only available <for units without [Perception RF]>",
+			"Only available <for units without [Endurance RF]>",
+			"Only available <for units without [Charisma RF]>",
+			"Only available <for units without [Agility RF]>",
+			"Only available <for units without [Luck RF]>",
+			"Unavailable <for [non-[Vault-Tec RF]] Civilizations>"
+		],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"innerColor": [20, 255, 23],
+		"outerColor": [0, 0, 0],
+        "column": 102
+        "row": 2,
+    },
+	{
+		"name": "Agility RF",
+		"prerequisites": ["SPECIAL RF"],
+		"uniques": [
+			"Withdraws before melee combat <with [15]% chance>",
+			"This Promotion is free",
+			"Only available <for units without [Strength RF]>",
+			"Only available <for units without [Perception RF]>",
+			"Only available <for units without [Endurance RF]>",
+			"Only available <for units without [Charisma RF]>",
+			"Only available <for units without [Intelligence RF]>",
+			"Only available <for units without [Luck RF]>",
+			"Unavailable <for [non-[Vault-Tec RF]] Civilizations>"
+		],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"innerColor": [20, 255, 23],
+		"outerColor": [0, 0, 0],
+        "column": 103
+        "row": 2,
+    }
+	{
+		"name": "Luck RF",
+		"prerequisites": ["SPECIAL RF"],
+		"uniques": [
+			"Earn [50]% of the damage done to [Military] units as [Gold] <with [25]% chance>",
+			"This Promotion is free",
+			"Only available <for units without [Strength RF]>",
+			"Only available <for units without [Perception RF]>",
+			"Only available <for units without [Endurance RF]>",
+			"Only available <for units without [Charisma RF]>",
+			"Only available <for units without [Intelligence RF]>",
+			"Only available <for units without [Agility RF]>",
+			"Unavailable <for [non-[Vault-Tec RF]] Civilizations>"
+		],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"innerColor": [20, 255, 23],
+		"outerColor": [0, 0, 0],
+        "column": 104
+        "row": 2,
+    }
+	
+	//White Legs
+	/*
+	{
+		"name": "White Leg RF",
+		"uniques": [
+			"[This Unit] gains [20] XP <upon conquering a city>",
+			"[This Unit] heals [40] HP <upon conquering a city>"
+		],
+		"innerColor": [20, 255, 23],
+		"outerColor": [0, 0, 0],
+    },
 	*/
 ]

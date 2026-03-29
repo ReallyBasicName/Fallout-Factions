@@ -1,53 +1,112 @@
 [
-	/*
+	//Horribly unorganized right now...
 	{
-		"name": "Paladin",
+		"name": "Paladin RF",
 		"unitType": "Gunpowder",
 		"replaces": "Paratrooper",
-		"uniqueTo": "Brotherhood of Steel",
+		"uniqueTo": "Brotherhood of Steel RF",
 		"movement": 2,
-		"strength": 65,
-		"cost": 375,
+		"strength": 80,
+		"cost": 400,
 		"requiredTech": "Radar",
-		"uniques": [
-			"May Paradrop up to [5] tiles from inside friendly territory", 
+		"uniques": [ 
+			"Earn [100]% of killed [Military] unit's [Strength] as [Science]",
+			"May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>",
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "shot"
-		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	},
 	{
-		"name": "Legate",
-		"unitType": "Civilian",
+		"name": "Elder RF",
+		"unitType": "Gunpowder",
 		"replaces": "Great General",
-		"uniqueTo": "Caesar's Legion",
+		"uniqueTo": "Brotherhood of Steel RF",
+		"movement": 2,
+		"strength": 12,
 		"uniques": [
-            "[+15]% Strength bonus for [Military] units within [2] tiles",
-            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Can be earned through combat",
+            "[+20]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <once>",
+			"Can be earned through combat <for [Land] units>",
             "Is part of Great Person group [General]",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+            "[This Unit] gets a name from the [BoS Elder] group",
+			"Great Person - [War]", "Unbuildable", "Uncapturable",
+			"[+6] Strength <after discovering [Iron Working]>",
+			"[+10] Strength <after discovering [Gunpowder]>",
+			"[+10] Strength <after discovering [Rifling]>",
+			"[+22] Strength <after discovering [Replaceable Parts]>",
+			"[+20] Strength <after discovering [Plastics]>",
+			"[+20] Strength <after discovering [Mobile Tactics]>"
+		],
 		"movement": 2
 	},
 	{
-		"name": "Laser Musketman",
+		"name": "Legate RF",
+		"unitType": "Sword",
+		"replaces": "Great General",
+		"uniqueTo": "Caesar's Legion RF",
+		"movement": 2,
+		"strength": 10,
+		"uniques": [
+			"May capture killed [Barbarian] units <with [25]% chance>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+            "[This Unit] gets a name from the [Legatus] group",
+			"Great Person - [War]", "Unbuildable", "Uncapturable",
+			"[+2] Strength <after discovering [Bronze Working]>",
+			"[+4] Strength <after discovering [Iron Working]>",
+			"[+6] Strength <after discovering [Steel]>",
+			"[+4] Strength <after discovering [Gunpowder]>",
+			"[+12] Strength <after discovering [Rifling]>",
+			"[+22] Strength <after discovering [Replaceable Parts]>",
+			"[+20] Strength <after discovering [Plastics]>",
+			"[+20] Strength <after discovering [Mobile Tactics]>"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Praetorian Guard RF",
+		"unitType": "Sword",
+		"uniqueTo": "Caesar's Legion RF",
+		"movement": 2,
+		"strength": 16,
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Only available <after adopting [Honor]>",
+			"Can move immediately once bought",
+			"[+15]% Strength <when attacking> <when adjacent to a [Great Person] unit>",
+			"[+8] Strength <after discovering [Gunpowder]>",
+			"[+10] Strength <after discovering [Rifling]>",
+			"[+16] Strength <after discovering [Replaceable Parts]>",
+			"[+20] Strength <after discovering [Plastics]>",
+			"[+20] Strength <after discovering [Mobile Tactics]>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Laser Musketman RF",
 		"unitType": "Gunpowder",
 		"replaces": "Infantry",
-		"uniqueTo": "Commonwealth Minutemen",
+		"uniqueTo": "Commonwealth Minutemen RF",
 		"movement": 2,
 		"strength": 70,
 		"cost": 375,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
+		"uniques": [
+			"[Great General] is earned [+25]% faster",
+			"[+15]% Strength <when fighting in [City-State] tiles>"
+		],
 		"attackSound": "lm"
 	},
-	*/
 	{
-		"name": "Advanced Power Armor",
+		"name": "Advanced Power Armor RF",
 		"unitType": "Gunpowder",
 		"replaces": "Mechanized Infantry",
-		"uniqueTo": "The Enclave",
+		"uniqueTo": "The Enclave RF",
 		"movement": 2,
 		"strength": 100,
 		"cost": 400,
@@ -59,10 +118,10 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Vertibird",
+		"name": "Vertibird RF",
 		"unitType": "Helicopter",
 		"replaces": "Helicopter Gunship",
-		"uniqueTo": "The Enclave",
+		"uniqueTo": "The Enclave RF",
 		"movement": 8,
 		"strength": 60,
 		"cost": 425,
@@ -79,58 +138,60 @@
 		],
 		"attackSound": "machinegun"
 	},
-	/*
 	{
-		"name": "Flamer",
-		"unitType": "Ranged Gunpowder",
+		"name": "Flamer RF",
+		"unitType": "Gunpowder",
 		"replaces": "Machine Gun",
-		"uniqueTo": "Fiends",
-		"range": 1,
+		"uniqueTo": "The Fiends RF",
 		"movement": 2,
 		"strength": 60,
-		"rangedStrength": 60,
 		"cost": 350,
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mechanized Infantry",
+		"uniques": [
+			"No movement cost to pillage",
+			"[+25]% Strength <vs [Melee] units>",
+			"[-10]% Strength for enemy [Land] units in adjacent [All] tiles"
+		],
 		"attackSound": "machinegun"
-		// Upgrades to Bazooka in BNW
 	},
+	/*
 	{
-		"name": "Courser",
+		"name": "Courser RF",
 		"unitType": "Gunpowder",
 		"replaces": "Mechanized Infantry",
-		"uniqueTo": "The Institute",
+		"uniqueTo": "The Institute RF",
 		"movement": 2,
 		"strength": 100,
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
 		"uniques": [
-			"May Paradrop to [Land] tiles up to [4] tiles away", 
+			"May Paradrop to [Land] tiles up to [4] tiles away <in [{Friendly} {Land}] tiles>", 
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "laserg"
 	},
 	{
-		"name": "Dagger Squad",
+		"name": "Dagger Squad RF",
 		"unitType": "Gunpowder",
 		"replaces": "Paratrooper",
-		"uniqueTo": "Midwest Brotherhood",
+		"uniqueTo": "Midwest Brotherhood RF",
 		"movement": 2,
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Radar",
 		"uniques": [
-			"May Paradrop up to [5] tiles from inside friendly territory", 
+			"May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>", 
 			"Never appears as a Barbarian unit"
 		],
 		"attackSound": "shot"
 		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	},
 	{
-		"name": "Hummer",
+		"name": "Hummer RF",
 		"unitType": "Gunpowder",
 		"replaces": "Mechanized Infantry",
-		"uniqueTo": "Midwest Brotherhood",
+		"uniqueTo": "Midwest Brotherhood RF",
 		"movement": 3,
 		"strength": 90,
 		"cost": 375,
@@ -138,67 +199,159 @@
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
+	*/
 	{
-		"name": "Securitron",
+		"name": "Securitron RF",
 		"unitType": "Ranged Gunpowder",
 		"replaces": "Machine Gun",
-		"uniqueTo": "New Vegas",
+		"uniqueTo": "New Vegas RF",
 		"range": 1,
-		"movement": 2,
+		"movement": 3,
 		"strength": 60,
 		"rangedStrength": 60,
 		"cost": 350,
-		"requiredTech": "Ballistics",
-		"upgradesTo": "Mechanized Infantry",
+		"requiredTech": "Electronics",
+		"promotions": ["Cover I"],
+		"uniques": [
+			"Comment [Does not upgrade]",
+			"Comment [Does not obsolete]",
+			"Comment [Required tech [Electronics] vs [Ballistics]]"
+			"[+25] Strength <after discovering [Computers]>"
+		],
 		"attackSound": "machinegun"
-		// Upgrades to Bazooka in BNW
 	},
+	/*
 	{
-		"name": "Crimson Dragoon",
+		"name": "Crimson Dragoon RF",
 		"unitType": "Gunpowder",
 		"replaces": "Paratrooper",
-		"uniqueTo": "People's Liberation Army",
+		"uniqueTo": "People's Liberation Army RF",
 		"movement": 2,
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Radar",
 		"uniques": [
-			"May Paradrop up to [5] tiles from inside friendly territory", 
+			"May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>",
 			"Never appears as a Barbarian unit"
-		],
-		"attackSound": "shot"
-		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
-	},
-	{
-		"name": "Vault-Tec Security",
-		"unitType": "Gunpowder",
-		"replaces": "Infantry",
-		"uniqueTo": "Vault-Tec",
-		"movement": 2,
-		"strength": 70,
-		"cost": 375,
-		"requiredTech": "Plastics",
-		"upgradesTo": "Mechanized Infantry",
-		"obsoleteTech": "Mobile Tactics",
-		"attackSound": "shot"
-	},
-	{
-		"name": "Test",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 10,
-		"cost": 1000000,
-		"requiredTech": "Plastics",
-		"upgradesTo": "Mechanized Infantry",
-		"obsoleteTech": "Mobile Tactics",
-		"uniques": [
-			"[+100] Sight"
 		],
 		"attackSound": "shot"
 	},
 	*/
+	{
+		"name": "Veteran Ranger RF",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Marine",
+		"uniqueTo": "New California RF",
+		"movement": 2,
+		"range": 1,
+		"strength": 75,
+		"rangedStrength": 80,
+		"cost": 420,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"promotions": ["Cover I"],
+		"uniques": [
+			"[+1] Range <in [Fort] tiles>",
+			"[+1] Sight <in [Desert] tiles>",
+			"[+1] Movement <in [Desert] tiles>"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Kings Gang Member RF",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Freeside RF",
+		"movement": 2,
+		"strength": 34,
+		"cost": 250,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Great War Infantry",
+		"uniques": [
+			"Comment [Does not obsolete]",
+			"No damage penalty for wounded units",
+			"Can be purchased with [Culture] [in capital]",
+			"[+6] Strength <after discovering [Replaceable Parts]>"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Powder Ganger Soldier RF",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Powder Gangers RF",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Dynamite",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": [
+			"Comment [Required tech [Dynamite] vs [Replaceable Parts]]"
+			"[-25]% maintenance costs",
+			"Earn [50]% of the damage done to [Military] units as [Gold] <when fighting units from a Civilization with more Cities than you>"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Slaver RF",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "The Pitt RF",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Great War Infantry",
+		"uniques": [
+			"Comment [Does not obsolete]"
+			"May enter foreign tiles without open borders",
+			"Can build [Road] improvements on tiles",
+			"Can build [Railroad] improvements on tiles",
+			"Can build [Steelyard RF] improvements on tiles"
+		],
+		"attackSound": "shot"
+	},
 	/*
 		"replaces": "",
 		"uniqueTo": "",
+	*/
+	/*
+	{
+		"name": "Centaur RF",
+		"unitType": "Sword",
+		"uniqueTo": "The Unity RF",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"uniques": [
+			"Unbuildable"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Floater RF",
+		"unitType": "Sword",
+		"uniqueTo": "The Unity RF",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"uniques": [
+			"Unbuildable"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Nightkin RF",
+		"unitType": "Sword",
+		"uniqueTo": "The Unity RF",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"uniques": [
+			"Unbuildable"
+		],
+		"attackSound": "nonmetalhit"
+	},
 	*/
 ]

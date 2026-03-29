@@ -1,251 +1,545 @@
 
 game.png
-size: 2048, 512
+size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-NationIcons/Army of Attis
+BuildingIcons/Arena RF
   rotate: false
-  xy: 4, 291
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationIcons/Army of Gammorin
-  rotate: false
-  xy: 1820, 391
+  xy: 1112, 907
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Boomers
+BuildingIcons/Casino RF
   rotate: false
-  xy: 1252, 112
+  xy: 1328, 907
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gladiator Pit RF
+  rotate: false
+  xy: 557, 67
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gomorrah Casino RF
+  rotate: false
+  xy: 420, 233
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/King's School of Impersonation RF
+  rotate: false
+  xy: 794, 167
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Lucky 38 Casino RF
+  rotate: false
+  xy: 836, 855
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+BuildingIcons/Neon Sign Barriers RF
+  rotate: false
+  xy: 944, 575
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Recruitment Radio Beacon RF
+  rotate: false
+  xy: 1428, 799
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Tops Casino RF
+  rotate: false
+  xy: 628, 441
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Ultra-Luxe Casino RF
+  rotate: false
+  xy: 183, 25
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+BuildingIcons/Vault RF
+  rotate: false
+  xy: 1620, 691
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Vault-Tec University RF
+  rotate: false
+  xy: 1836, 691
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Steelyard RF
+  rotate: false
+  xy: 1188, 683
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Army of Attis RF
+  rotate: false
+  xy: 4, 807
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Boomers RF
+  rotate: false
+  xy: 4, 4
   size: 171, 171
   orig: 171, 171
   offset: 0, 0
   index: -1
-NationIcons/Brotherhood of Steel
+NationIcons/Brotherhood of Steel RF
   rotate: false
-  xy: 4, 83
+  xy: 4, 599
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Caesar's Legion
+NationIcons/Caesar's Legion RF
   rotate: false
-  xy: 212, 291
+  xy: 212, 807
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Commonwealth Minutemen
+NationIcons/Chinese Remnants RF
   rotate: false
-  xy: 212, 83
+  xy: 1652, 907
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Commonwealth Minutemen RF
+  rotate: false
+  xy: 4, 391
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Free States
+NationIcons/Free States RF
   rotate: false
-  xy: 420, 291
+  xy: 212, 599
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Great Khans
+NationIcons/Freeside RF
   rotate: false
-  xy: 1596, 383
+  xy: 578, 175
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Great Khans RF
+  rotate: false
+  xy: 996, 899
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
-NationIcons/Gunners
+NationIcons/Gunners RF
   rotate: false
-  xy: 1647, 147
+  xy: 794, 275
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Midwest Brotherhood
+NationIcons/Midwest Brotherhood RF
   rotate: false
-  xy: 420, 83
+  xy: 420, 807
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/New California
+NationIcons/New California RF
   rotate: false
-  xy: 628, 291
+  xy: 4, 183
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/New Vegas
+NationIcons/New Vegas RF
   rotate: false
-  xy: 1647, 39
+  xy: 665, 9
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Shi
+NationIcons/Powder Gangers RF
   rotate: false
-  xy: 1892, 283
+  xy: 1212, 799
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Texan Brotherhood
+NationIcons/Responders RF
   rotate: false
-  xy: 628, 83
+  xy: 1644, 799
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Rust Kingdom RF
+  rotate: false
+  xy: 1752, 799
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Shi RF
+  rotate: false
+  xy: 1860, 799
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Texan Brotherhood RF
+  rotate: false
+  xy: 212, 391
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/The Enclave
+NationIcons/The Enclave RF
   rotate: false
-  xy: 836, 291
+  xy: 420, 599
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/The Fiends
+NationIcons/The Fiends RF
   rotate: false
-  xy: 836, 83
+  xy: 628, 807
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/The Institute
+NationIcons/The Institute RF
   rotate: false
-  xy: 1044, 291
+  xy: 212, 183
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/The Railroad
+NationIcons/The Pitt RF
   rotate: false
-  xy: 1044, 83
+  xy: 1296, 691
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Railroad RF
+  rotate: false
+  xy: 420, 391
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/The Unity
+NationIcons/The Unity RF
   rotate: false
-  xy: 1755, 167
+  xy: 1404, 691
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Vault-Tec
+NationIcons/Vault-Tec RF
   rotate: false
-  xy: 1863, 175
+  xy: 1728, 691
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Zion
+NationIcons/White Legs RF
   rotate: false
-  xy: 1252, 291
+  xy: 1268, 575
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Zion RF
+  rotate: false
+  xy: 628, 599
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationPortraits/The Unity
+NationPortraits/The Unity RF
   rotate: false
-  xy: 1755, 59
+  xy: 1512, 691
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Bright Brotherhood
+ReligionIcons/Bright Brotherhood RF
   rotate: false
-  xy: 1928, 391
+  xy: 1220, 907
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Children of the Atom
+ReligionIcons/Children of the Atom RF
   rotate: false
-  xy: 1460, 255
+  xy: 1436, 907
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Children of the Cathedral
+ReligionIcons/Children of the Cathedral RF
   rotate: false
-  xy: 1431, 147
+  xy: 1544, 907
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Church of the Lost
+ReligionIcons/Church of the Lost RF
   rotate: false
-  xy: 1431, 39
+  xy: 1760, 907
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Codex
+ReligionIcons/Codex RF
   rotate: false
-  xy: 1539, 147
+  xy: 1868, 907
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Cult of Mars
+ReligionIcons/Cult of Mars RF
   rotate: false
-  xy: 1539, 39
+  xy: 449, 125
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Followers of the Apocalypse
+ReligionIcons/Followers of the Apocalypse RF
   rotate: false
-  xy: 1568, 255
+  xy: 449, 17
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Gods of the Vault
+ReligionIcons/Gods of the Vault RF
   rotate: false
-  xy: 1252, 4
+  xy: 686, 333
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Mormonism
+ReligionIcons/Hubology RF
   rotate: false
-  xy: 1460, 363
+  xy: 686, 117
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Mormonism RF
+  rotate: false
+  xy: 836, 719
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
-ReligionIcons/Plutonius Worship
+ReligionIcons/Plutonius Worship RF
   rotate: false
-  xy: 1676, 275
+  xy: 1080, 683
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Renewal
+ReligionIcons/Renewal RF
   rotate: false
-  xy: 1784, 283
+  xy: 1536, 799
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Advanced Power Armor
+ResourceIcons/FEV
   rotate: false
-  xy: 1712, 391
+  xy: 786, 491
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Vertibird
+BuildingIcons/FEV Vats RF
   rotate: false
-  xy: 1863, 67
+  xy: 786, 491
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Advanced Power Armor RF
+  rotate: false
+  xy: 836, 611
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Crimson Dragoon RF
+  rotate: false
+  xy: 341, 75
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elder RF
+  rotate: false
+  xy: 578, 283
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Gunner Brigadier RF
+  rotate: false
+  xy: 686, 225
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Gunner Commander RF
+  rotate: false
+  xy: 794, 383
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Kings Gang Member RF
+  rotate: false
+  xy: 996, 791
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Laser Musketman RF
+  rotate: false
+  xy: 972, 683
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Paladin RF
+  rotate: false
+  xy: 1052, 575
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Powder Ganger Soldier RF
+  rotate: false
+  xy: 1104, 791
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Psycho Ghoul RF
+  rotate: false
+  xy: 1320, 799
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Slaver RF
+  rotate: false
+  xy: 1160, 575
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Vertibird RF
+  rotate: false
+  xy: 1944, 691
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Veteran Ranger RF
+  rotate: false
+  xy: 1944, 583
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Yangtze-Class RF
+  rotate: false
+  xy: 1376, 583
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Agility RF
+  rotate: false
+  xy: 1976, 957
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Charisma RF
+  rotate: false
+  xy: 1484, 633
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Endurance RF
+  rotate: false
+  xy: 1542, 633
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Intelligence RF
+  rotate: false
+  xy: 1600, 633
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Luck RF
+  rotate: false
+  xy: 1658, 633
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Perception RF
+  rotate: false
+  xy: 1716, 633
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/SPECIAL RF
+  rotate: false
+  xy: 1774, 633
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Strength RF
+  rotate: false
+  xy: 1832, 633
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1

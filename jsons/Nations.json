@@ -53,7 +53,7 @@
 	
 	/*
 	{
-		"name": "Appalachian Enclave",
+		"name": "Appalachian Enclave RF",
 		"leaderName": "",
 		"adjective": [""],
 		"startBias": [""],
@@ -102,13 +102,13 @@
 	*/
 	/*
 	{
-		"name": "Army of Attis",
+		"name": "Army of Attis RF",
 		"leaderName": "Attis",
 		"adjective": "Attis's",
 		"startBias": ["None"],
 		"preferredVictoryType": "Domination",
-		"personality": "Master",
-		"favoredReligion": "Church of the Lost",
+		"personality": "Attis",
+		"favoredReligion": "Church of the Lost RF",
 		
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -138,16 +138,29 @@
 			"Gladiator Pit", "Vault-Tec Warehouse", "Carbon", "Carbon Crater", "Carbon Mill", 
 			"Carbon Warehouse"
 		],
-		"spyNames": ["Matron", "Blake", "Richard", "Salieri", "Hieronymous", "Pete", "Giese", "Fisher ", "Lieutenant", "Torch"] 
+		"spyNames": [
+			"Matron",
+			"Blake",
+			"Richard",
+			"Salieri",
+			"Hieronymous",
+			"Pete",
+			"Giese",
+			"Fisher ",
+			"Lieutenant",
+			"Torch"
+		] 
 	},
+	*/
+	/*
 	{
-		"name": "Army of Gammorin",
+		"name": "Army of Gammorin RF",
 		"leaderName": "Gammorin",
 		"adjective": "Gammorin's",
 		"startBias": ["None"],
 		"preferredVictoryType": "Domination",
 		"personality": "Gammorin",
-		"favoredReligion": "Church of the Lost",
+		"favoredReligion": "Church of the Lost RF",
 
 		
         "startIntroPart1": "",
@@ -194,35 +207,36 @@
 	*/
 	
 	//Normal Factions
-	/*
+	
 	{
-		"name": "Brotherhood of Steel",
-		"leaderName": "Elder Maxson",
+		"name": "Brotherhood of Steel RF",
+		"leaderName": "Roger Maxson",
 		"adjective": ["Brotherhood"],
 		"startBias": ["None"],
 		"preferredVictoryType": "Scientific",
-		//"personality": "",
+		"personality": "Roger Maxson",
 		//"favoredReligion": "",
 		
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 		
-		"declaringWar": "",
-		"attacked": "",
+		"declaringWar": "What we need is... purpose. We cannot look to you for that purpose. We have to build our own.",
+		"attacked": "Damn you all to Hell.",
 		"defeated": "Damn you... You may have bested me here, but the Brotherhood still has bunkers hidden everywhere, right under your nose... We'll be back.",
 		"introduction": "A wastelander, huh? It's been a few years since the Paladins last let one through, and they told me I should meet this one. I'm Roger Maxson, High Elder of the Brotherhood of Steel, pleased to meet your acquaintance. So, who are you, and what do you have for us?",
 		
 		"neutralHello": "Hail.",
-		"hateHello": "",
-		"denounced": "",
+		"hateHello": "Words have power. They build identity. They take on a meaning if you keep using them, even if it didn't exist to begin with.",
+		"denounced": "Are you out of your god-damned mind?",
 		
-		"tradeRequest": "",
+		"tradeRequest": "This would help us in our efforts. Please, help your fellow man with this.",
 		"declaringFriendship": "Tonight, let us forge together something we can be proud of.",
 		
 		
 		"outerColor": [215,123,0],
 		"innerColor": [255,255,255],
-		"style": "",
+		//"style": "",
+		
 		"uniqueName": "Scribes of the Codex",
 		"uniques": [
 			"[Settler] units gain the [Without Borders] promotion",
@@ -252,13 +266,13 @@
 		]
 	},
 	{
-		"name": "Caesar's Legion",
+		"name": "Caesar's Legion RF",
 		"leaderName": "Caesar",
 		"adjective": ["Legion"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
-		//"personality": "Legion",
-		"favoredReligion": "Cult of Mars",
+		"personality": "Caesar",
+		"favoredReligion": "Cult of Mars RF",
 		
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -284,22 +298,84 @@
 		"uniques": [
 			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [25]% chance>",
 			"[+15]% [Production] [in capital] <for [5] turns> <upon conquering a city>",
-			"[+3 Happiness] from every [Massacre Zone] <hidden from users>",
 			"[+1 Production, +1 Happiness] [in all cities] <when at war>",
-			"Cannot build [Giant Death Robot] units"
+			"Cannot build [Giant Death Robot] units <for [AI player] Civilizations> <hidden from users>"
 		],
 		"cities": ["Flagstaff", "Fortification Hill", "Two Sun", "Denver", "Phoenix", "Dry Wells", "Cottonwood Cove", "Syracuse", "Malpais",
 			"Nelson", "Nipton", "Spanish Fork", "Yuma", "Willow Beach", "Bullhead City", "Circle Junction", "The Res", "Twin Mothers",
 			"Buena Vista", "Fort Abandon", "Techatticup"],
-        "spyNames": ["Vulpes", "Silus", "Picus", "Lucius", "Ulysses", "Atticus", "Dead Sea", "Hostillius", "Aurelius","Alexus"]
+        "spyNames": [
+			"Alerio",
+			"Aurelius",
+			"Dead Sea",
+			"Gabban",
+			"Hostillius",
+			"Karl",
+			"Lucius",
+			"Picus",
+			"Ulysses",
+			"Vulpes"
+		]
 	},
+	/*
+    {
+        "name": "Chinese Remnants RF",
+        "leaderName": "Jingwei",
+        "adjective": ["Liberation Army"],
+        "startBias": ["Tundra"],
+        "preferredVictoryType": "Domination",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+		
+        "neutralHello": "",
+        "hateHello": "",
+		"denounced": "",
+		
+        "tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [100, 12, 2],
+		"innerColor": [251, 209, 21],
+		//"style": "",
+		
+        "uniqueName": "Anchorage Campaign"
+        "uniques": [
+			//"Gain a free [Extra Defense] [cityFilter]"
+        ],
+        "cities": [
+			"Chinese HQ", "Listening Post", "Chimera Armor Depot", "Chinese Forward Camp Delta", "Artillery Overlook",
+			"Chinese Pulse Field", "Chinese Intelligence Bunker", "Sub Recovery Site", "Broadcast Tower KT8", "Mama Dolce's",
+			"Chinese Radio Beacon", "Fujiniya Intelligence Base", "Mama Dolce's Food Processing", "Motherlode Acquisition Facility", "Communist Internment Camp",
+			"Communist Outpost"
+        ]
+		"spyNames": [
+			"Chao",
+			"Cheng",
+			"First Mate",
+			"Huang",
+			"John Doe",
+			"Mochou", 
+			"Quao", 
+			"Wenjie",
+			"Xin",
+			"Zao"
+		]
+    },
+	*/
 	{
-		"name": "Commonwealth Minutemen",
+		"name": "Commonwealth Minutemen RF",
 		"leaderName": "Preston Garvey",
 		"adjective": ["Minutemen"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Diplomatic",
-		//"personality": "Garvey",
+		"personality": "Preston Garvey",
 		//"favoredReligion": "",
 		
 		"startIntroPart1": "",
@@ -319,49 +395,42 @@
 		
 		"outerColor": [78, 109, 142],
 		"innerColor": [255, 255, 255],
-		"style": "Military",
+		//"style": "",
 		
 		"uniqueName": "United We Stand",
 		"uniques": [
-			"[All] units gain the [Minute's Notice] promotion",
-			"Resting point for Influence with City-States is increased by [15]",
-			"When declaring friendship, both parties gain a [+25]% boost to great person generation"
+			//"[All] units gain the [Minute's Notice] promotion",
+			"City-State territory always counts as friendly territory",
+			"Gifts of Gold to City-States generate [+25]% more Influence",
+			"Resting point for Influence with City-States is increased by [10]"
 			]
 		"cities": [
-			"The Castle",
-			"Sanctuary Hills",
-			"Tenpines Bluff",
-			"Oberland Station",
-			"Abernathy Farm",
-			"Greygarden",
-			"Quincy",
-			"The Slog",
-			"Finch Farm",
-			"Nordhagen Beach",
-			"Concord",
-			"County Crossing",
-			"Somerville Place",
-			"Greentop Nursery",
-			"Jamaica Plain",
-			"Spectacle Island",
-			"Hangman's Alley",
-			"Covenant",
-			"Outpost Zimonja",
-			"Murkwater",
-			"Bunker Hill",
-			"Taffington",
-			"Diamond City"
+			"The Castle", "Sanctuary Hills", "Tenpines Bluff", "Oberland Station", "Abernathy Farm",
+			"Greygarden", "Quincy", "The Slog", "Finch Farm", "Nordhagen Beach",
+			"Concord", "County Crossing", "Somerville Place", "Greentop Nursery", "Jamaica Plain",
+			"Spectacle Island", "Hangman's Alley", "Covenant", "Outpost Zimonja", "Murkwater",
+			"Bunker Hill", "Taffington", "Diamond City"
 		]
-        "spyNames": ["Sarge", "Becker", "McGann", "Shaw", "Hollis", "Nate", "Nora", "Sturges", "Savoldi", "Mama Murphy"]
+        "spyNames": [
+			"Sarge",
+			"Becker",
+			"McGann",
+			"Shaw",
+			"Hollis",
+			"Nate",
+			"Nora",
+			"Sturges",
+			"Savoldi",
+			"Mama Murphy"
+		]
 	},
-	*/
 	{
-		"name": "The Enclave",
+		"name": "The Enclave RF",
 		"leaderName": "Dick Richardson",
 		"adjective": ["Enclave"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
-		//"personality": "Enclave",
+		"personality": "Dick Richardson",
 		//"favoredReligion": "",
 		
 		"startIntroPart1": "Did you know, there are those amongst us who would shatter our hopes for peace, order, and security? These radical malcontents don't care about you. They don't care about America! All they care about is fulfilling their own selfish desires. Let's take a tally of these agitators, shall we? There are, of course, the raiders. Those anarchistic ruffians who roam the wastes, preying on any and all, stealing, murdering. The so-called 'Brotherhood of Steel.' Now, don't be fooled by their pseudo-knightly nonsense or supposed connections to the United States Army. These... power-armored boy scouts are nothing more than common criminals with access to some antiquated technology. Criminals who have had the audacity to claim this country's most important military installation, the Pentagon, as their own personal clubhouse! And don't be fooled, America. Those who have left the Brotherhood of Steel, branded Outcasts, are just as dangerous; even more so, being in exile. And what about the slavers of Paradise Falls? The frighteningly irradiated ghouls of Underworld? And last but not least, the hideously mutated super mutants that have completely overrun the entire downtown D.C. area.",
@@ -414,14 +483,13 @@
 			"Augustus"
 		]
 	},
-	/*
 	{
-		"name": "The Fiends",
+		"name": "The Fiends RF",
 		"leaderName": "Motor-Runner",
 		"adjective": "Fiend",
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
-		"personality": "Motor",
+		"personality": "Motor-Runner",
 
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -443,7 +511,9 @@
 		"style": ""
 		"uniqueName": "Scourge of the Mojave"
 		"uniques": [
-			"[-25]% maintenance costs <for [Land] units>"
+			"[-25]% maintenance costs <for [Land] units>",
+			"[Melee] units gain the [Fuck Borders] promotion <hidden from users>",
+			"Comment [Melee units may enter foreign tiles without open borders, but gain -25% Strength and -5 HP when healing while in foreign tiles without open borders]"
 		],
 		"cities": [
 			"Vault 3", "South Vegas", "Poseidon Gas Station", "West Pump Station", "Basincreek Building", 
@@ -464,13 +534,14 @@
 			"GnashBone"
 		]
 	},
+	/*
 	{
-		"name": "Free States",
+		"name": "Free States RF",
 		"leaderName": "Raleigh Clay",
 		"adjective": ["Free State"],
 		"startBias": ["River"],
 		"preferredVictoryType": "Diplomatic",
-		//"personality": "Raleigh",
+		"personality": "Raleigh Clay",
 		//"favoredReligion": "",
 		
 		"startIntroPart1": "",
@@ -512,14 +583,67 @@
 			"Blackwell"
 		]
 	},
+	*/
 	{
-		"name": "Great Khans",
+		"name": "Freeside RF",
+		"leaderName": "King",
+		"adjective": ["Freeside"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Cultural",
+		"personality": "The King",
+		"favoredReligion": "Followers of the Apocalypse RF",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Nothing's innocent in Freeside. You should know that by now...",
+		"attacked": "Go back to your general or commodore or whatever-the-fuck and shove your declaration where the sun don't shine.",
+		"defeated": "My momma didn't raise no quitter...",
+		"introduction": "Look, Rexie, someone new's come to see us. Poor boy. He hasn't been feeling well lately. I'm the King. What can I do for you?",
+		
+		"neutralHello": "What can the King do for you?",
+		"hateHello": "I don't think a peaceful solution is possible. Not anymore.",
+		"denounced": "If there's one thing I won't tolerate, it's lack of respect.",
+		
+		"tradeRequest": "I don't give out trades everyday, so you probably shouldn't rush to a choice.",
+		"declaringFriendship": "Normally, we don't let outsiders join, but I think I can make an exception in your case.",
+		
+		"outerColor": [110, 33, 79],
+		"innerColor": [242, 232, 130],
+		"style": "",
+		
+		"uniqueName": "Every Man is a King",
+		"uniques": [
+			"Cannot build [Settler] units",
+			"[+2 Gold] [in all cities] <with a garrison>",
+			"[+1 Happiness] from all [Culture] buildings",
+			"[+2 Culture] from every specialist [in all cities]"
+			"[+1 Culture, +1 Happiness] per [2] social policies adopted"
+			]
+		"cities": [
+			"Freeside"
+		]
+        "spyNames": [
+			"Pacer", 
+			"Rex", 
+			"Sergio", 
+			"Tapper", 
+			"April", 
+			"Arcade", 
+			"Julie", 
+			"Gloria", 
+			"Jean-Baptiste"
+		]
+	},
+	/*
+	{
+		"name": "Great Khans RF",
 		"leaderName": "Papa Khan",
 		"adjective": ["Khan"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
-		"personality": "Khan",
-		"favoredReligion": "Followers of the Apocalypse",
+		"personality": "Papa Khan",
+		"favoredReligion": "Followers of the Apocalypse RF",
 		
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -543,7 +667,7 @@
 		//"uniqueText": "When defeating Barbarian units, there is a 67% chance that you earn 25 Water and they join your side. Barbarian units captured this way cost no maintenance and provide up to 5 Water each turn while inside your territory. Defeated units provide a temporary burst in Production towards Civilian units. Start with Chemistry researched.",
 		"uniques": [
 			"When defeating a [Barbarian] unit, earn [25] Gold and recruit it <with [100]% chance>",
-			"[Barbarian] units gain the [New Khan] promotion",
+			//"[Barbarian] units gain the [New Khan] promotion",
 			//"[Military] units gain the [???] promotion",
 		],
 		"cities": [
@@ -565,13 +689,15 @@
 			"Manny"
 		]
 	},
+	*/
+	/*
 	{
-		"name": "Gunners",
-		"leaderName": "Colonel Cypress",
+		"name": "Gunners RF",
+		"leaderName": "Cypress",
 		"adjective": "Gunner",
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
-		"personality": "",
+		"personality": "Cypress",
 
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -625,13 +751,15 @@
 			"Winlock"
 		]
 	},
+	*/
+	/*
 	{
-		"name": "The Institute",
+		"name": "The Institute RF",
 		"leaderName": "Father",
 		"adjective": ["Institute"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Scientific",
-		//"personality": "",
+		"personality": "Father",
 		//"favoredReligion": "",
 		
 		"startIntroPart1": "",
@@ -683,12 +811,12 @@
 		]
 	},
 	{
-		"name": "Midwest Brotherhood",
+		"name": "Midwest Brotherhood RF",
 		"leaderName": "The Warrior",
 		"adjective": ["Midwest"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
-		//"personality": "",
+		"personality": "The Warrior",
 		//"favoredReligion": "",
 		
 		"startIntroPart1": "",
@@ -734,13 +862,14 @@
 			"Bors"
 		]
 	},
+	*/
 	{
-		"name": "New California",
+		"name": "New California RF",
 		"leaderName": "Tandi",
 		"adjective": ["New Californian"],
 		"startBias": ["Desert"],
-		//"preferredVictoryType": "",
-		//"personality": "Tandi",
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Tandi",
 		//"favoredReligion": "",
 		
 		"startIntroPart1": "",
@@ -786,13 +915,13 @@
 		]
 	},
 	{
-		"name": "New Vegas",
+		"name": "New Vegas RF",
 		"leaderName": "Mr. House",
 		"adjective": ["New Vegas"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Diplomatic",
-		//"personality": "House",
-		"favoredReligion": "Followers of the Apocalypse",
+		"personality": "Mr. House",
+		"favoredReligion": "Followers of the Apocalypse RF",
 		
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -810,9 +939,9 @@
 		"tradeRequest": "I like to think that you have enough sense to make the right decision. The rewards for doing so are immense... as are the punishments for not doing so.",
 		"declaringFriendship": "Events of great import are about to unfold, with you taking a central role. To get started, all you need do is agree to help me.",
 		
-		"outerColor": [19,45,24],
-		"innerColor": [94,124,98],
-		"style": "Corporate",
+		"outerColor": [19, 45, 24],
+		"innerColor": [94, 124, 98],
+		"style": "",
 		
 		"uniqueName": "The House Always Wins",
 		"uniques": [
@@ -821,11 +950,13 @@
 			"Cannot build [Settler] units",
 			"[+1 Happiness] per every [100] [Gold]",
 			"[+1 Happiness] per every [250] [Gold]",
-			//"[Automated] units gain the [Dead Man's Hand] promotion"
+			"[+1 Production] [in capital] <for every [50] [Gold]>",
+			"Gain [25] [Gold] <upon constructing [Market]>",
+			"Gain [25] [Gold] <upon constructing [Bank]>",
+			"Gain [25] [Gold] <upon constructing [Casino RF]>"
 			]
 		"cities": [
-			"New Vegas",
-			"Freeside",
+			"New Vegas Strip"
 			"Westside"
 		],
         "spyNames": [
@@ -841,65 +972,64 @@
 			"Jane"
 		]
 	},
-    {
-        "name": "People's Liberation Army",
-        "leaderName": "Jingwei",
-        "adjective": ["Liberation Army"],
-        "startBias": ["Tundra"],
-        "preferredVictoryType": "Domination",
+	{
+		"name": "The Pitt RF",
+		"leaderName": "Ashur",
+		"adjective": ["Pitt"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Domination",
+		"personality": "Ashur",
 		//"favoredReligion": "",
 		
-        "startIntroPart1": "",
-        "startIntroPart2": "",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
 		
-        "declaringWar": "",
-        "attacked": "",
-        "defeated": "",
-        "introduction": "",
+		"declaringWar": "Don't look so surprised. Your arrival was too convenient.",
+		"attacked": "I figured it'd be something like this. Goodbye, new blood",
+		"defeated": "I should have gunned you down long ago...",
+		"introduction": "Nice work in the hole, new blood. Knew you couldn't be one of our normal workers. So, that begs the question: who are you, and what are you doing in my city?",
 		
-        "neutralHello": "",
-        "hateHello": "",
-		"denounced": "",
+		"neutralHello": "How's life treating you, kid?",
+		"hateHello": "It's okay, I get a lot of people trying to betray me. Part of the position, really.",
+		"denounced": "I ought to have you thrown out of town. In pieces.",
 		
-        "tradeRequest": "",
-		"declaringFriendship": "",
+		"tradeRequest": "I can make you a much better offer than that snake. Here.",
+		"declaringFriendship": "I knew I could trust you, and I wasn't disappointed.",
 		
-		"outerColor": [100, 12, 2],
-		"innerColor": [251, 209, 21],
+		"outerColor": [66, 20, 13],
+		"innerColor": [191, 171, 100],
 		"style": "",
 		
-        "uniqueName": "Anchorage Campaign"
-        "uniques": [
-			//"Gain a free [Extra Defense] [cityFilter]"
-        ],
-        "cities": [
-			"Chinese Occupied Refinery", "Listening Post", "Chimera Armor Depot", "Chinese Forward Camp Delta", "", 
-			"Chinese Forward Camp Alpha", "Chinese Forward Camp Beta", "Chinese Forward Camp Gamma", "Chinese Forward Camp Epsilon", "Chinese Forward Camp Zeta",
-			"Chinese Forward Camp Eta", "Chinese Forward Camp Theta", "Chinese Forward Camp Iota", "Chinese Forward Camp Kappa", "Chinese Forward Camp Lambda",
-			"Chinese Forward Camp Mu", "Chinese Forward Camp Nu", "Chinese Forward Camp Xi", "Chinese Forward Camp Omicron", "Chinese Forward Camp Pi",
-			"Chinese Forward Camp Rho", "Chinese Forward Camp Sigma", "Chinese Forward Camp Tau", "Chinese Forward Camp Upsilon", "Chinese Forward Camp Phi",
-			"Chinese Forward Camp Chi", "Chinese Forward Camp Psi", "Chinese Forward Camp Omega"
-        ]
-		"spyNames": [
-			"Mei", 
-			"Chao", 
-			"Huang", 
-			"Cheng", 
-			"Xiu-Ling", 
-			"Zao", 
-			"Quao", 
-			"Xi", 
-			"Jiang", 
-			"Wan Yang"
+		"uniqueName": "Free Labor",
+		"uniques": [
+			"[-50]% maintenance on road & railroads",
+			"Comment [[+2 Gold, +1 Culture, +1 Production] in capital for every city connected to capital]",
+			"[+2 Gold, +1 Culture, +1 Production] [in capital] <for every [[{non-[Capital]} {in all cities connected to capital}] Cities]> <hidden from users>"
+			]
+		"cities": [
+			"Haven", "Pitt Uptown", "Pitt Downtown", "Pitt Steelyard", "Pitt Bridge",
+			"Pitt Train Yard", "The Mill", "Supply Plant"
 		]
-    },
+        "spyNames": [
+			"Bingo", 
+			"Bone", 
+			"Duke", 
+			"Everett", 
+			"Faydra", 
+			"Friday", 
+			"Gruber", 
+			"Hammer", 
+			"Jackson",
+			"Krenshaw"
+		]
+	},
 	{
-		"name": "Powder Gangers",
+		"name": "Powder Gangers RF",
 		"leaderName": "Eddie",
 		"adjective": ["Powder Ganger"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
-		//"personality": "Eddie",
+		"personality": "Eddie",
 		//"favoredReligion": "",
 		
 		"startIntroPart1": "",
@@ -907,14 +1037,14 @@
 		
 		"declaringWar": "Rumor is you've been working against us, so the deal's off.",
 		"attacked": "There's no way I'm letting you take me alive.",
-		"defeated": "",
+		"defeated": "Fuck you...",
 		"introduction": "Dawes said he let somebody in. So, you going to give me a reason not to kill you and throw your body back outside?",
 		
 		"neutralHello": "What?",
 		"hateHello": "Yeah, get out of here.",
 		"denounced": "Fuck you for wasting my time, then.",
 		
-		"tradeRequest": "",
+		"tradeRequest": "I have a present for you from the Powder Gangers.",
 		"declaringFriendship": "I've been thinking that since you've been good to us, we can be good to you. What do you say?",
 		
 		"outerColor": [107, 126, 177],
@@ -923,7 +1053,9 @@
 		
 		"uniqueName": "We Fought the Law",
 		"uniques": [
-			
+			"No movement cost to pillage",
+			"[+50]% Yield from pillaging tiles <after discovering [Dynamite]>",
+			"[+15]% Strength <when attacking> <in cities with a [Police Station]>"
 			]
 		"cities": [
 			"NCR Correctional Facility", "Bison Steve Hotel", "Vault 19", "Hunter's Farm", "Interstate 15", 
@@ -942,8 +1074,109 @@
 			"Hawkins"
 		]
 	},
+	/*
 	{
-		"name": "Shi",
+		"name": "Responders RF",
+		"leaderName": "Rucker",
+		"adjective": ["Responder"],
+		"startBias": [""],
+		"preferredVictoryType": "Scientific",
+		"personality": "Rucker",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "Take care of yourself--and your fellow wastelanders if you're able.",
+		"hateHello": "",
+		"denounced": "",
+		
+		"tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [34, 31, 102],
+		"innerColor": [210, 72, 72],
+		"style": "",
+		
+		"uniqueName": "Stand Together! Rebuild America!",
+		"uniques": [
+			
+			]
+		"cities": [
+			"Whitespring Refuge", "The Whitespring Resort", "Gilman Lumber Mill", "Flatwoods", "",
+			"", "", "", "", "",
+			"", "", "", "", ""
+		]
+        "spyNames": [
+			"Maria", 
+			"Sanjay", 
+			"Melody", 
+			"Jeff", 
+			"Sophie", 
+			"Tiffany", 
+			"Heather", 
+			"June", 
+			"Lane"
+		]
+	},
+	{
+		"name": "Rust Kingdom RF",
+		"leaderName": "The Rust King",
+		"adjective": ["Rust"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+		"personality": "The Rust King",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "You trust too easily. That's how you ended up here, under my boot.",
+		"attacked": "Do you count the ants you step on? Nobody wins against me.",
+		"defeated": "You won, and that is all that should matter...",
+		"introduction": "There you are, fresh meat. That blood on your hands has people talking. I am the Rust King. I test people's resolve to see if they are worthy of their place in my kingdom.",
+		
+		"neutralHello": "You've got my attention. Don't waste it.",
+		"hateHello": "I've never seen such arrogance from someone so small.",
+		"denounced": "You are bold, despite the sweat on your brow.",
+		
+		"tradeRequest": "Humans, Ghouls... You tiny things are all the same. I don't care what you look like, only what you can offer me.",
+		"declaringFriendship": "I heard of your bloodlust. It pleases me to know how far you are willing to go, to get what you want. I decide we are allies.",
+		
+		"outerColor": [139, 49, 27],
+		"innerColor": [161, 162, 159],
+		"style": "",
+		
+		"uniqueName": "Weak Follow the Strong",
+		"uniques": [
+			
+			]
+		"cities": [
+			"The Rust Kingdom", "Abraxodyne Chemical Power Substation", "Checkpoint Canyon", "Jackson Junkyard", "Fort Steuben",
+			"The Chop Shop", "Oak Hill", "Super Duper Mart"
+		]
+        "spyNames": [
+			"Ava", 
+			"Runt", 
+			"Lina", 
+			"Frank", 
+			"Silas", 
+			"Bran", 
+			"Dusty", 
+			"Danny", 
+			"Barry",
+			"Sam"
+		]
+	},
+	*/
+	/*
+	{
+		"name": "Shi RF",
 		"leaderName": "Ken Lee",
 		"adjective": ["Shi"],
 		"startBias": ["Hill"],
@@ -992,7 +1225,7 @@
 	*/
 	/*
 	{
-		"name": "Texan Brotherhood",
+		"name": "Texan Brotherhood RF",
 		"leaderName": "Rhombus",
 		"adjective": ["Midwest"],
 		"startBias": ["None"],
@@ -1034,13 +1267,13 @@
 	*/
 	/*
 	{
-		"name": "The Unity",
+		"name": "The Unity RF",
 		"leaderName": "The Master",
 		"adjective": "Unity",
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
-		"personality": "Master",
-		"favoredReligion": "Children of the Cathedral",
+		"personality": "The Master",
+		"favoredReligion": "Children of the Cathedral RF",
 
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -1072,11 +1305,11 @@
 			"Rebel units may spawn",
 			//"Comment [Can only produce units with [FEV] and [Subject]]",
 			//"Comment [Can produce population with [FEV] and [Subject]]",
-			"[+100]% [Production] [in all cities] <when below [-10] Happiness>",
+			"[+100]% [Production] [in all cities] <when below [-10] [Happiness]>",
 			"When defeating a [Military] unit, earn [25] Gold and recruit it <with [20]% chance>",
-			"[Military] units gain the [Unity] promotion",
-			"Cannot build [Settler] units",
-			"Triggers a [More Population?] event <for [AI player] Civilizations> <when above [1] [Subject]> <hidden from users>"
+			"[Military] units gain the [Subject] promotion",
+			"All newly-trained [Military] units [in all cities] receive the [Unity] promotion",
+			"Cannot build [Settler] units"
 		],
 		"cities": [
 			"The Cathedral",
@@ -1096,13 +1329,14 @@
 			"Gammorin"
 		]
 	},
+	*/
 	{
-		"name": "Vault-Tec",
-		"leaderName": "Giles Wolstencroft",
+		"name": "Vault-Tec RF",
+		"leaderName": "Vault Boy",
 		"adjective": ["Vault-Tec"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
-		//"personality": "Tec",
+		"personality": "Vault Boy",
 		//"favoredReligion": "Christianity",
 		
 		"startIntroPart1": "",
@@ -1111,10 +1345,10 @@
 		"declaringWar": "",
 		"attacked": "Did you know: the odds of Vault-Tec failing are 1,763,497 to 1?",
 		"defeated": "",
-		"introduction": "If it wasn't for us, humanity would've never survived. We only ever tried to do what was necessary.",
+		"introduction": "",
 		
 		"neutralHello": "",
-		"hateHello": "You're still alive?",
+		"hateHello": "",
 		"denounced": "",
 		
 		"tradeRequest": "",
@@ -1126,6 +1360,8 @@
 		
 		"uniqueName": "You're SPECIAL",
 		"uniques": [
+			"Comment [Military units can choose one free [SPECIAL RF] promotion]",
+			"[Military] units gain the [SPECIAL RF] promotion <hidden from users>"
 		],
 		"cities": [
 			"Vault-Tec Headquarters",
@@ -1163,14 +1399,70 @@
 			"Bud"
 		]
 	},
+	/*
 	{
-		"name": "Zion",
+		"name": "White Legs RF",
+		"leaderName": "Salt-Upon-Wounds",
+		"adjective": ["White Leg"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+		"personality": "Salt-Upon-Wounds",
+		"favoredReligion": "Cult of Mars RF",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "You mock White Legs! You die now!",
+		"attacked": "Weak words you talk! Now you see strong spears better than weak words!",
+		"defeated": "...I go. But rebuild my tribe, and come we back stronger than before!",
+		"introduction": "Foolish outman, you come before White Legs with only words? You speak. I listen. Kill you, maybe I not. Maybe.",
+		
+		"neutralHello": "You talk!",
+		"hateHello": "Weak words you talk!",
+		"denounced": "Yoocan no nikumpa me!",
+		
+		"tradeRequest": "This good. You accept.",
+		"declaringFriendship": "You true warriors! You join, maybe.",
+		
+		"outerColor": [193, 171, 147],
+		"innerColor": [128, 0, 0],
+		"style": "",
+		
+		"uniqueName": "Spanish Fork Armory Raid",
+		"uniques": [
+			"Comment [Military Land units gain 20 XP upon conquering a city]",
+			"Comment [Military Land units heal 40 HP upon conquering a city]"
+			"[{Military} {Land}] units gain the [White Leg RF] promotion <hidden from users>"
+			]
+		"cities": [
+			"Great Salt", "Three Marys", "Bighorn Bluff", "Spanish Fork", "New Canaan",
+			"Caliente", "Crossroads Cavern", "Eastern Virgin", "Clear Water", "Old Rockville",
+			"The Red Gate", "Dagger's Point", "The Spine", "Glass Chime Cave", "Wind Wall",
+			"East Fork", "The Aerie", "Red Rapids", "Two Skies", "Pine Creek",
+			"The Bend", "Caterpillar's Mound", "Court Fork", "Patriarchs' Campground", "Sun Sentinels",
+			"Virgin River", "Southern Passage", "Morning Glory Cave", "Cueva Guarache", "Ghost Den"
+		]
+        "spyNames": [
+			"Outman", 
+			"Hainji", 
+			"Baika-ker", 
+			"General Gobbledegook", 
+			"Storm-Drummer", 
+			"Mongrel-Keeper", 
+			"Sapper", 
+			"Light-Bringer", 
+			"Bone-Breaker",
+			"Pain-Maker"
+		]
+	},
+	{
+		"name": "Zion RF",
 		"leaderName": "Joshua Graham",
 		"adjective": ["Zionite"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Cultural",
-		"personality": "Graham",
-		"favoredReligion": "Mormonism",
+		"personality": "Joshua Graham",
+		"favoredReligion": "Mormonism RF",
 
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -1192,9 +1484,8 @@
 		"style": "Tribal",
 		
 		"uniqueName": "Way of the Canaanite",
-		"uniqueText": "Low Tech and Personnel units receive a 20% combat bonus when fighting Barbarians or other Low Tech or Personnel units (these bonuses stack). Ancient Wonders provide +5 Faith. Start with Secrets of the Past researched.",
 		"uniques": [
-			"[+5 Faith] from every [Natural Wonder]",
+			"[+4 Faith] from every [Natural Wonder]",
 			"[+20]% Strength <for [Gunpowder] units> <vs [Melee] units>",
 			"[+20]% Strength <for [Gunpowder] units> <vs [Barbarian] units>"
 		],
@@ -1218,9 +1509,41 @@
 		]
 	},
 	*/
+	
 	//// City-States
+	
+	/*
 	{
-		"name": "Boomers",
+		"name": "",
+		"adjective": [""],
+		"cityStateType": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"outerColor": [0, 0, 0],
+		"innerColor": [],
+		"style": "",
+		"uniques": [
+			],
+		"cities": [""]
+	}
+	*/
+	{
+		"name": "Arroyo RF",
+		"adjective": ["Arroyo"],
+		"cityStateType": "Religious",
+		"declaringWar": "You will perish.",
+		"attacked": "You are a traitor!",
+		"defeated": "I knew you had the soul of darkness...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [147, 123, 96],
+		"style": "",
+		"uniques": [
+			],
+		"cities": ["Arroyo"]
+	},
+	{
+		"name": "Boomers RF",
 		"adjective": ["Boomer"],
 		"cityStateType": "Militaristic",
 		"style": "",
@@ -1229,12 +1552,26 @@
 		"declaringWar": "",
 		"attacked": "",
 		"defeated": "",		
-		"outerColor": [67,107,124],
-		"innerColor": [238,234,102],
+		"outerColor": [0, 0, 0],
+		"innerColor": [67, 107, 124],
 		"cities": ["Nellis Air Force Base"]
 	},
 	{
-		"name": "Goodneighbor",
+		"name": "Forged RF",
+		"adjective": ["Forged"],
+		"cityStateType": "Militaristic",
+		"declaringWar": "You make us weak.",
+		"attacked": "Now you're someone who might actually be worth my time. Unfortunately for you, this isn't your victory to take, stranger.",
+		"defeated": "You're somebody with some guts... I like that...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [189, 86, 13],
+		"style": "",
+		"uniques": [
+			],
+		"cities": ["Saugus Ironworks"]
+	}
+	{
+		"name": "Goodneighbor RF",
 		"adjective": ["Goodneighbor"],
 		"cityStateType": "Mercantile",
 		"style": "",
@@ -1248,7 +1585,7 @@
 		"cities": ["Goodneighbor"]
 	},
 	{
-		"name": "New Reno",
+		"name": "New Reno RF",
 		"adjective": ["New Reno"],
 		"cityStateType": "Mercantile",
 		"style": "",
@@ -1262,59 +1599,45 @@
 		"cities": ["New Reno"]
 	},
 	{
-		"name": "The Pitt",
-		"adjective": ["Pitt"],
+		"name": "Disciples RF",
+		"adjective": ["Disciple"],
 		"cityStateType": "Militaristic",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"outerColor": [2, 2, 2],
+		"innerColor": [160, 54, 50],
 		"style": "",
 		"uniques": [
 			],
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",		
-		"outerColor": [0,0,0],
-		"innerColor": [255,255,255],
-		"cities": ["The Pitt"]
+		"cities": ["Fizztop Mountain"]
 	},
 	{
-		"name": "The Railroad",
-		"adjective": ["Railroad"],
-		"cityStateType": "Cultured",
+		"name": "Operators RF",
+		"adjective": ["Operator"],
+		"cityStateType": "Mercantile",
+		"declaringWar": "Idleness... makes people weak.",
+		"attacked": "Oh, you're dead.",
+		"defeated": "",
+		"outerColor": [0, 0, 0],
+		"innerColor": [163, 119, 53],
 		"style": "",
 		"uniques": [
 			],
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",		
-		"outerColor": [163,141,19],
-		"innerColor": [255,255,255],
-		"cities": ["Old North Church"]
-	},
+		"cities": ["The Parlor"]
+	}
 	{
-		"name": "The Responders",
-		"adjective": ["Responder"],
-		"cityStateType": "Maritime",
-		"style": "",
-		"uniques": [
-			],
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",		
-		"outerColor": [0,0,0],
-		"innerColor": [57, 87, 164],
-		"cities": ["The Whitespring Resort"]
-	},
-	{
-		"name": "Yakuza",
-		"adjective": ["Yakuza"],
+		"name": "The Pack RF",
+		"adjective": ["Pack"],
 		"cityStateType": "Militaristic",
+		"declaringWar": "I think I'm going to enjoy this.",
+		"attacked": "You're either very stupid or very brave, and we ain't spent enough time together for me to know which.",
+		"defeated": "I... uhh... uuuggghhhnn.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [151, 181, 130],
 		"style": "",
 		"uniques": [
 			],
-		"declaringWar": "Killing is an art form.",
-		"attacked": "It is your karma to die.",
-		"defeated": "Fleeing is dishonorable. Dying would be worse.",		
-		"outerColor": [0,0,0],
-		"innerColor": [241,20,93],
-		"cities": ["Marklee"]
+		"cities": ["Bradberton Amphitheater"]
 	}
 ]
